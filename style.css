@@ -14,26 +14,55 @@
   */
 
 
-html {
+ h1{
+  text-align:center;
+  font-size: 1.875em; /*30px / 16px */
+  font-weight: bold;
+  line-height: 1em;
+  padding-bottom: 0.5em;
+  }
+  
+ 
+ 
+ h3{
+	 text-align:left;
+	 font-size: 1.125em; /*18px/16px*/
+	 font-weight: bold;
+	 line-height: 1em;
+	
+ }
+ 
+ html{
   background-color: #bfd7ff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 1.125em; /*18px / 16px */
-  line-height: 1.222em; /*22px / 18px */
-}
+  line-height: 1em; /*16px / 16px */
+  padding-bottom: 0.5em;
+  
+  }
 
-#map {
-  height: 100%;
-}
+ #map {
+   height: 100%;
+   
+  }
 
-html, body {
-  height: 80%;
-  margin: 2em;
-  padding: 0;
-}
+ html, body {
+   height: 80%;
+   margin: 1em;
+   padding:0;
+   padding-left:1em;
+   padding-right:1em;
+   padding-bottom:1em;
+ }
+ 
+ paragraph{
+	 text-align: left;
+	 font-size: 1.125em; /*18/16px */
+	 padding-bottom: 1em;
+	 padding-top: 1em;
+	 line-height: 1.5em;
+ }
+ 
+ 
+ 
+ 
 
-h1 {
-  text-align: center;
-  font-size: 2.188em; /*35px/16px */
-  font-weight: bold;
-  line-height: 2em;
-}
