@@ -20,23 +20,25 @@
   font-weight: bold;
   line-height: 1em;
   padding-bottom: 0.5em;
+ 
   }
   
  
  
  h3{
-	 text-align:left;
-	 font-size: 1.em; /*16px/16px*/
-	 line-height: 1em;
+   text-align:left;
+   font-size: 1em; /*16px/16px*/
+   line-height: 1em;
    padding-bottom:0.5em;
+   padding-top:0.5em;
+   font-weight: bold;
 	
  }
  
  html{
   background-color: #bfd7ff;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
   line-height: 1em; /*16px / 16px */
-  padding-bottom: 1em;
   
   }
 
@@ -50,14 +52,14 @@
    margin: 1em;
    padding-left:1em;
    padding-right:1em;
-   padding-bottom:1em;
+  
  }
  
  body{
-	 text-align: left;
-	 font-size: 1.125em; /*18/16px */
-   padding-bottom:0.5em;
-	 line-height: 1.5em;
+	text-align: left;
+	font-size: 1em; /*16/16px */
+	padding-bottom:0.5em;
+	line-height: 1.5em;
  }
 
 #zip{
@@ -70,6 +72,7 @@
 footer{
   font-size:0.875em  /*14/16*/;
   padding-top: 2em;
+  
 }
  
  
