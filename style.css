@@ -14,68 +14,57 @@
   */
 
 
- h1{
-  text-align:center;
+h1 {
+  text-align: center;
   font-size: 1.875em; /*30px / 16px */
   font-weight: bold;
   line-height: 1em;
   padding-bottom: 0.5em;
- 
-  }
-  
- 
- 
- h3{
-   text-align:left;
-   font-size: 1em; /*16px/16px*/
-   line-height: 1em;
-   padding-bottom:0.5em;
-   padding-top:0.5em;
-   font-weight: bold;
-	
- }
- 
- html{
-  background-color: #bfd7ff;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  line-height: 1em; /*16px / 16px */
-  
-  }
+}
 
- #map {
-   height: 100%;
-   
-  }
 
- html, body {
-   height: 80%;
-   margin: 1em;
-   padding-left:1em;
-   padding-right:1em;
-  
- }
- 
- body{
-	text-align: left;
-	font-size: 1em; /*16/16px */
-	padding-bottom:0.5em;
-	line-height: 1.5em;
- }
 
-#zip{
-  color:red;
-  padding-bottom:0.5em;
+h3 {
+  text-align: left;
+  font-size: 1em; /*16px/16px*/
+  line-height: 1em;
+  padding-bottom: 0.5em;
   padding-top: 0.5em;
-  
+  font-weight: bold;
 }
 
-footer{
-  font-size:0.875em  /*14/16*/;
+html {
+  background-color: #bfd7ff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  line-height: 1em; /*16px / 16px */
+}
+
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 80%;
+  margin: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+body {
+  text-align: left;
+  font-size: 1em; /*16/16px */
+  padding-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+#zip {
+  color: red;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+
+}
+
+footer {
+  font-size: 0.875em  /*14/16*/;
   padding-top: 2em;
-  
 }
- 
- 
- 
- 
-

@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>Simple Map</title>
-  <meta name="viewport" content="initial-scale=1.0"/>
-  <meta charset="utf-8"/>
-  <link rel = "stylesheet" type= "text/css" href = "style.css"/>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <link rel = "stylesheet" type= "text/css" href = "style.css"/>
 
-</head>
-<body>
+  </head>
+  <body>
 
-  <header>
-    <h1> Welcome to Our Maps </h1>
-  </header>
+    <header>
+      <h1> Welcome to Our Maps </h1>
+    </header>
 
-  <div id="map"></div>
+    <div id="map"></div>
 
 
-	<article id="controls">
-    <form id="zip-form" name="zip-form" method="get" action="#null">
-      <label for="zip-code">Enter Zip Code: </label>
-      <input type="text" id="zip-code" name="zip-code" />
-      <input type="submit" id="zip-submit" name="zip-submit" value="Send Zip" />
-    </form>
-  </article>
+    <article id="controls">
+      <form id="zip-form" name="zip-form" method="get" action="#null">
+        <label for="zip-code">Enter Zip Code: </label>
+        <input type="text" id="zip-code" name="zip-code" />
+        <input type="submit" id="zip-submit" name="zip-submit" value="Send Zip" />
+      </form>
+    </article>
 
-  <p id="zip">Position: </p>
+    <p id="zip">Position: </p>
 
-  <header>
-    <h3>Want to know your precise location?</h3>
-  </header>
-	<p>In our project we are using Google Maps API in order to find the exact longitude and latitude
-		of a given zip-code.
-	</p>
-	
-  <header>
-	<h3>Is this just a map website?</h3>
-  </header>
-	<p>Not only does our website provide location services but, it marks where there are animal shelters
-	in your area. Insert you zipcode to find the shelters that are available near you. Hope you find the perfect
-	pet and companion. 
-	</p>
-  
-  <p id="error"></p>
-  <footer>
-    <p id="ftr">Designed by Consuelo and Richard</p>
-  </footer>
+    <header>
+      <h3>Want to know your precise location?</h3>
+    </header>
+    <p>In our project we are using Google Maps API in order to find the exact longitude and latitude
+      of a given zip-code.
+    </p>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBscMaTy7jt6fISLrMwGIejOy-1i-BqJ_g" async ></script>
-  <script src="gmaps.js"></script>
-  <script src="site.js"></script>
+    <header>
+      <h3>Is this just a map website?</h3>
+    </header>
+    <p>Not only does our website provide location services but, it marks where there are animal shelters
+    in your area. Insert you zip-code to find the shelters that are available near you. Hover over the marker
+    to see the name of the facility.  Hope you find the perfect pet and companion.
+    </p>
+
+    <p id="error"></p>
+    <footer>
+      <p id="ftr">Designed by Consuelo and Richard</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBscMaTy7jt6fISLrMwGIejOy-1i-BqJ_g" async ></script>
+    <script src="gmaps.js"></script>
+    <script src="site.js"></script>
 
   </body>
-  </html>
+</html>
